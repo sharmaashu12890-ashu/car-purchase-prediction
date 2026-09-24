@@ -4,6 +4,8 @@
 
 This project uses **Machine Learning** to predict whether a customer is likely to purchase a car based on their **Age** and **Estimated Salary**.
 
+After training the Logistic Regression model, the trained model is saved using **Pickle** and integrated with a **Flask** web application.
+
 A **Logistic Regression** classification algorithm is trained on customer data to predict the target variable `Purchased`.
 
 The project also includes basic data exploration, data preprocessing, visualization, model training, and prediction comparison.
